@@ -23,6 +23,18 @@ class stacks:
             r = self.stacklist[-1]
             del self.stacklist[-1]
             return r
+    def isempty(self):
+        if self.top > -1:
+            return False
+        else:
+            return True
+    def peek(self):
+        if self.top == -1:
+            return "stack empty"
+        else:
+            return self.stacklist[-1]
+        
+        
         
         
             
