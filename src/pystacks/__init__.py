@@ -1,1 +1,1 @@
-from pystacks import StackError, stacks
+from pystacks import stacks
