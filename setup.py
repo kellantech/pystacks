@@ -19,5 +19,6 @@ if __name__ == '__main__':
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
   ],
+        url = "https://github.com/kellantech/pystacks"
 
 )
