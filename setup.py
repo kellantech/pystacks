@@ -4,7 +4,7 @@ if __name__ == '__main__':
   setup(  name = 'superstacks',         
   packages = ['superstacks'],   #
   version = '0.1',   
-        download_url = 'https://github.com/kellantech/pystacks/archive/refs/tags/v0.1.tar.gz',
+        download_url = 'https://github.com/kellantech/superstacks/archive/refs/tags/v0.1.1.tar.gz',
           keywords = ['stacks', 'python', ':)'],   #
   install_requires=[           
          
@@ -19,6 +19,6 @@ if __name__ == '__main__':
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
   ],
-        url = "https://github.com/kellantech/pystacks"
+        url = "https://github.com/kellantech/superstacks"
 
 )
