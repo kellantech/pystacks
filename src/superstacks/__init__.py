@@ -3,7 +3,7 @@ class StackError(BaseException):
         self.msq = msg
     def __repr__(self):
         return self.msg
-class stacks:
+class stack:
     def __init__(self, size):
         self.size = size-1
         self.stacklist = [ ]
