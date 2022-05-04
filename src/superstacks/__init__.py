@@ -1,9 +1,9 @@
 class StackError(BaseException):
-    def __init__(self, msg=""):
+    def __init__(self, msg="An Unspecified Error Occurred"):
         self.msq = msg
     def __repr__(self):
         return self.msg
-class stacks:
+class stack:
     def __init__(self, size):
         self.size = size-1
         self.stacklist = [ ]
@@ -12,12 +12,12 @@ class stacks:
         self.stacklist.append(value)
         self.top += 1
         if self.top > self.size:
-            raise StackError("CRITICAL ERROR: STACK OVERFLOW")
+            raise StackError("ERROR: STACK OVERFLOW")
     def pop(self):
         if self.top == -1:
             return "stack empty"
         elif self.top < -1:
-            raise StackError("CRITICAL ERROR: STACK UNDERFLOW")
+            raise StackError("ERROR: STACK UNDERFLOW")
         else:
             self.top -= 1
             r = self.stacklist[-1]
