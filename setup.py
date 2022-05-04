@@ -4,7 +4,7 @@ if __name__ == '__main__':
   setup(  name = 'superstacks',         
   packages = ['superstacks'],   #
   version = '0.1',   
-        download_url = 'https://github.com/kellantech/superstacks/archive/refs/tags/v0.1.1.tar.gz',
+        download_url = 'https://github.com/kellantech/superstacks/archive/refs/tags/v1.tar.gz',
           keywords = ['stacks', 'python', ':)'],   #
   install_requires=[           
          
